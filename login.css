@@ -1,0 +1,57 @@
+body {
+    background-color: #6479be;
+    text-align: center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {box-sizing: border-box}
+
+input    {
+    width: 35%;
+    padding: 12px;
+    border: 1px, black;
+    border-radius: 4px;
+    margin: 5px 0 0 0;
+    opacity: 0.85;
+    display: inline;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+  }
+
+.kõiktekstid {
+    position:fixed;
+}  
+
+input[type=submit] {
+    background-color: #2b428f;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+  }
+
+#accountlink:hover {
+    opacity:0.5;
+}
+
+#forgotpassword:hover {
+    opacity:0.5;
+}
+
+#nupp:hover {
+    opacity:0.5;
+}  
+.kast {
+    background-color: white;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.pilt {
+    position:relative;
+    display: block;
+    width: 20%;
+    height: 20%;
+    float:left;
+}
