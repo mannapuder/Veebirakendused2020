@@ -10,7 +10,7 @@ body {
 input    {
     width: 35%;
     padding: 12px;
-    border: 1px, black;
+    border: 1px solid black;
     border-radius: 4px;
     margin: 5px 0 0 0;
     opacity: 0.85;
@@ -19,10 +19,6 @@ input    {
     line-height: 20px;
     text-decoration: none; /* remove underline from anchors */
   }
-
-.kõiktekstid {
-    position:fixed;
-}  
 
 input[type=submit] {
     background-color: #2b428f;
@@ -54,4 +50,11 @@ input[type=submit] {
     width: 20%;
     height: 20%;
     float:left;
+}
+
+#welcome {
+    margin-right: 16.7%;
+}
+#accountlink {
+    margin-right:16.7%;
 }
