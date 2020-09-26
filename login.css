@@ -1,5 +1,5 @@
 body {
-    background-color: #6479be;
+    background-color: #185EAB;
     text-align: center;
     padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,11 +21,15 @@ input    {
   }
 
 input[type=submit] {
-    background-color: #2b428f;
+    background-color: #185EAB;
     color: white;
     cursor: pointer;
     width: 20%;
   }
+
+a {
+    color: deepskyblue;
+}
 
 #accountlink:hover {
     opacity:0.5;
