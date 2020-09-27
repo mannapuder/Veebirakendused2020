@@ -7,7 +7,7 @@ body {
 
 * {box-sizing: border-box}
 
-input    {
+input  {
     width: 35%;
     padding: 12px;
     border: 1px solid black;
@@ -61,4 +61,9 @@ a {
 }
 #accountlink {
     margin-right:16.7%;
+}
+
+/* Pure formality due to the requirements */
+h2 ~ h3 {
+    line-height: 1.5;
 }
