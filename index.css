@@ -1,6 +1,6 @@
 body {
     background-color: #185EAB;
-    padding: 0px;
+    padding: 0;
     margin:0;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,6 +12,24 @@ nav {
     top:0;
     background:white;
 }
+
+input {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-right: none;
+    padding: 5px;
+
+}
+
+button {
+    width: 40%;
+    border: 1px solid darkblue;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #2b428f;
+    color: white;
+}
+
 .profilepage {
     float:right;
 }
@@ -20,6 +38,9 @@ nav {
 }
 .searchbar {
     margin:auto;
+    display: flex;
+    position: center;
+    width: 40%;
 }
 
 .icon {
@@ -28,10 +49,12 @@ nav {
 }
 
 .content {
-    padding-top: 5px;
-    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: white;
     width:50%;
+    position: center;
+    margin: auto;
 }
 .note {
     margin: auto auto 10px auto;
@@ -54,11 +77,11 @@ nav {
     width:100%;
 }
 
-button {
+/*button {
     background-color: #2b428f;
     border-radius: 4px;
     color: white;
-}
+}*/
 
 .like {
     width:75px;
